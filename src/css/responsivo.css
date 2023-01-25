@@ -1,0 +1,136 @@
+@media (max-width: 1200px) {
+    body {
+       background-color: #f44336;
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .mario {
+        max-width: 50%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer {
+        background-color: #263238;
+    }
+
+    .titulo {
+        margin: 5px 45px;
+    }
+
+    main div img {
+        width: 100%;
+    }
+
+    main div p {
+        text-align: justify;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .input-padrao {
+        width: 90%;
+    }
+
+    .enviar {
+        width: 40%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo {
+        max-width: 75%;
+    }
+
+    .modal .fechar-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video {
+        width: 300px;
+        height: 169px;
+    }
+
+    .titulo {
+        margin: 5px 45px;
+    }
+
+    main div img {
+        width: 100%;
+    }
+
+    main div p {
+        text-align: justify;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .input-padrao {
+        width: 90%;
+    }
+
+    .enviar {
+        width: 40%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 376px) {
+    .modal #video {
+        width: 250px;
+        height: 140px;
+    }
+
+    .titulo {
+        margin: 5px 45px;
+    }
+
+    main div img {
+        width: 100%;
+    }
+
+    main div p {
+        text-align: justify;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .input-padrao {
+        width: 90%;
+    }
+
+    .enviar {
+        width: 40%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
